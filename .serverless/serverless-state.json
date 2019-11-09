@@ -157,7 +157,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/rust-sample/dev/1573299021194-2019-11-09T11:30:21.194Z/rust-sample.zip"
+                "S3Key": "serverless/rust-sample/dev/1573306058845-2019-11-09T13:27:38.845Z/rust-sample.zip"
               },
               "FunctionName": "rust-sample-dev-rust-sample",
               "Handler": "rust-sample",
@@ -176,14 +176,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "RustDashsampleLambdaVersionuvw1snIRG0T9eVysHa4lVj4aZFdpiIELOlpPul1wDxo": {
+          "RustDashsampleLambdaVersionqhaAKVklMLN76MVKp1O2JGO0nr9JgNBGNx1V2TsRo": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "RustDashsampleLambdaFunction"
               },
-              "CodeSha256": "vN+YWhmg8C9r1HkhoAtjzU0xsK9gNEVBcRZgDqxhzaI="
+              "CodeSha256": "Vg1MONwKgHmrHyCgGe1D+dr5kUDfWwhSDhNtYVuAao8="
             }
           },
           "ApiGatewayRestApi": {
@@ -243,7 +243,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1573298763368": {
+          "ApiGatewayDeployment1573306052545": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -302,7 +302,7 @@
           "RustDashsampleLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "RustDashsampleLambdaVersionuvw1snIRG0T9eVysHa4lVj4aZFdpiIELOlpPul1wDxo"
+              "Ref": "RustDashsampleLambdaVersionqhaAKVklMLN76MVKp1O2JGO0nr9JgNBGNx1V2TsRo"
             }
           },
           "ServiceEndpoint": {
@@ -433,7 +433,7 @@
   },
   "package": {
     "individually": true,
-    "artifactDirectoryName": "serverless/rust-sample/dev/1573299021194-2019-11-09T11:30:21.194Z",
+    "artifactDirectoryName": "serverless/rust-sample/dev/1573306058845-2019-11-09T13:27:38.845Z",
     "artifact": ""
   }
 }
