@@ -1,0 +1,11 @@
+{
+  "name": "serverless-rust-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serverless": "1.56.1",
+    "serverless-rust": "0.3.6"
+  }
+}
