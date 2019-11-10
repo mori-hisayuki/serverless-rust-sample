@@ -11,7 +11,7 @@ fn handler(
     _: Context,
 ) -> Result<impl IntoResponse, HandlerError> {
     Ok(json!({
-        "message": "Go Serverless v1.0! Your function executed successfully!"
+        "message": "adder function"
     }))
 }
 
@@ -21,9 +21,9 @@ mod tests {
 
     #[test]
     fn handler_handles() {
-        let request = Request::default();
+        let request: Request<> = Request::default();
         let expected = json!({
-            "message": "Go Serverless v1.0! Your function executed successfully!"
+            "message": "adder function"
         })
         .into_response();
         let response = handler(request, Context::default())

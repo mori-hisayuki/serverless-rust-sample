@@ -16,8 +16,14 @@ plugins:
 package:
   individually: true
 functions:
-  rust-sample:
-    handler: rust-sample
+  rust-function:
+    handler: rust-sample-function
+    events:
+      - http:
+          path: /
+          method: GET
+  rust-function-two:
+    handler: adder
     events:
       - http:
           path: /
